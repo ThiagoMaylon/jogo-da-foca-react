@@ -1,0 +1,21 @@
+.palavra{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    gap: 10px;
+}
+
+input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 5px solid #fff;
+    width: 60px;
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
