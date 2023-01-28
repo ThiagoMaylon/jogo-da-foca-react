@@ -8,7 +8,7 @@ export const Letras = () => {
 
             <div className="letras-grid">
                 {arrayLetras.map((valorLetra, index) => (
-                    <button key={index} disabled>{valorLetra}</button>
+                    <button key={index}>{valorLetra}</button>
                 ))}
             </div>
             

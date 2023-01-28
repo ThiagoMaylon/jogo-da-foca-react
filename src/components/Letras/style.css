@@ -26,4 +26,6 @@ button{
 
 button:disabled{
     cursor: no-drop;
+    background-color: #50505074;
+    border: 2px solid #999;
 }

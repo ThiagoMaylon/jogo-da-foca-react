@@ -1,0 +1,29 @@
+.container-forca{
+    width: 300px;
+    height: auto;
+    margin: 30px auto;
+    
+}
+.forca{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 5px;
+}
+
+.forca-1{
+    height: 200px;
+}
+.forca-2{
+    position: relative;
+    top: -73px;
+    left: 73px;
+    height: 150px;
+    transform: rotate(90deg);
+}
+.forca-3{
+    height: 45px;
+    position: relative;
+    top: -21px;
+    left: 20px;
+    transform: rotate(90deg);
+}
