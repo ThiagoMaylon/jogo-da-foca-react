@@ -5,16 +5,17 @@ import { Status } from '../components/Status/';
 import './style.css'
 
 export const App = () => {
+
   const verificaFim = true;
   const status = 'ganhou';
-  const texto = 'a'
+
 
 
   return (
     <>
       <Status status={status} verificaFim={verificaFim} />
       <Forca />
-      <Palavra texto={texto} />
+      <Palavra />
       <Letras />
     </>
   );
