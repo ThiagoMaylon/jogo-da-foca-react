@@ -29,3 +29,22 @@ button:disabled{
     background-color: #50505074;
     border: 2px solid #999;
 }
+
+.palavra{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    gap: 10px;
+}
+.palavra span {
+    text-align: center;
+    font-size: 2em;
+}
+.palavra span .underline{
+    border-bottom: 2px solid #fff;
+    color: transparent;
+    width: 30px;
+}
