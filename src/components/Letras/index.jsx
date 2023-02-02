@@ -27,7 +27,7 @@ export const Letras = () => {
     }, [erros])
 
     useEffect(() => {
-        if(erros <= 5 & display.includes("_") === false){
+        if(display.includes("_") === false){
             setVerificaFim(true);
             setStatus("Ganhou");
         }
@@ -54,7 +54,7 @@ export const Letras = () => {
     return(
         <>
             <Status status={status} verificaFim={verificaFim} />
-            <Forca />
+            <Forca erros={erros}/>
             <div className='palavra'>
                 {display.map((letter, index) => (
                     <span key={index}>
