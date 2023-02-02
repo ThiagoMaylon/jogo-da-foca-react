@@ -1,3 +1,4 @@
+import {Corpo} from '../Corpo'
 import './style.css';
 
 export const Forca = () => {
@@ -6,7 +7,7 @@ export const Forca = () => {
             <div className="forca forca-1">
                 <div className="forca forca-2">
                     <div className="forca forca-3">
-                        
+                        <Corpo />
                     </div>
                 </div>
             </div>
