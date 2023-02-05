@@ -38,36 +38,36 @@
     border: 5px solid #fff;
     background-color: transparent;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    top: -48px;
-    left: -23px;
+    width: 40px;
+    height: 40px;
+    top: -35px;
+    left: -18px;
 }
 .corpo-1{
     height: 60px;
-    top: -154px;
+    top: -134px;
 }
 .corpo-2{
     height: 35px;
-    top: -243px;
+    top: -224px;
     left: 7px;
     transform: rotate(25deg);
 }
 .corpo-3{
     height: 35px;
-    top: -277px;
+    top: -258px;
     left: -7px;
     transform: rotate(-25deg);
 }
 .corpo-4{
     height: 35px;
-    top: -277px;
+    top: -255px;
     left: -7px;
     transform: rotate(-25deg);
 }
 .corpo-5{
     height: 35px;
-    top: -311px;
+    top: -290px;
     left: 7px;
     transform: rotate(25deg);
 }
